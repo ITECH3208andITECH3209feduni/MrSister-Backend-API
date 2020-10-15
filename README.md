@@ -1,5 +1,5 @@
 # MrSister-Backend-API
-## Set up mongo DB##
+## Set up mongo DB
 ```
 brew tap mongodb/brew
 ```
