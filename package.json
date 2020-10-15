@@ -1,0 +1,29 @@
+{
+  "name": "mr-sister-backend-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "start:mongo": "brew services start mongodb-community",
+    "stop:mongo": "brew services stop mongodb-community"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-node": "0.0.1-security",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "global": "^4.4.0",
+    "joi": "^17.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.2",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.4"
+  }
+}
