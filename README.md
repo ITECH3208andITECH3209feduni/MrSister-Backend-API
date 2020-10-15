@@ -13,7 +13,7 @@ To run data into database, open terminal
 ```
 node loadSupplierDataToDB.js
 ```
-(loadSupplierDataToDB this is file name)
+(loadSupplierDataToDB is file name)
 
 To run the project
 First we need to install npm for that
